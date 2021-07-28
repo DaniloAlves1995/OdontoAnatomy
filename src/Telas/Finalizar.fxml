@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="449.0" prefWidth="569.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controles.FinalizarControle">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="569.0" style="-fx-background-color: #005b37;">
+         <children>
+            <Label layoutX="182.0" layoutY="14.0" text="Resultado do seu teste" textFill="WHITE">
+               <font>
+                  <Font name="Times New Roman" size="23.0" />
+               </font>
+            </Label>
+            <Pane layoutX="97.0" layoutY="59.0" prefHeight="316.0" prefWidth="363.0" style="-fx-background-color: #ffffff; -fx-border-color: #005b37; -fx-border-width: 2px;">
+               <children>
+                  <Text fx:id="texto" layoutX="4.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Questão 0 = N° de marcações: 0 Acertos: 0" wrappingWidth="356.0">
+                     <font>
+                        <Font name="Times New Roman" size="17.0" />
+                     </font>
+                  </Text>
+                  <WebView fx:id="web" layoutX="7.0" layoutY="254.0" prefHeight="50.0" prefWidth="350.0" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Button fx:id="btsair" layoutX="291.0" layoutY="401.0" mnemonicParsing="false" onAction="#Sair" text="Sair">
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="29.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imagens/logout_3622.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnovamente" layoutX="164.0" layoutY="401.0" mnemonicParsing="false" onAction="#JogarNovamente" text="Novamente" textFill="#0a0a0a">
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="65.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imagens/Ic_swap_horiz_48px.svg.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label fx:id="texto2" layoutX="116.0" layoutY="378.0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

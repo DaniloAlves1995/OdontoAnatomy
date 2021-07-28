@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="551.0" prefWidth="979.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controles.ControleInterface">
+   <children>
+      <ImageView fitHeight="551.0" fitWidth="979.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/im2.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="l1" fill="RED" layoutX="14.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" m" wrappingWidth="368.13671875">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="i1" fitHeight="26.0" fitWidth="24.0" layoutX="37.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/info.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="i4" fitHeight="26.0" fitWidth="24.0" layoutX="144.0" layoutY="437.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/info.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="l4" fill="RED" layoutX="121.0" layoutY="479.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" m" wrappingWidth="368.13671875">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Text>
+      <Text fx:id="l2" fill="RED" layoutX="423.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" m" wrappingWidth="368.13671875">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="i2" fitHeight="26.0" fitWidth="24.0" layoutX="446.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/info.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="i3" fitHeight="26.0" fitWidth="24.0" layoutX="741.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/info.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="l3" fill="RED" layoutX="721.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" m" wrappingWidth="257.13671875">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

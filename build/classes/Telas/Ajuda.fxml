@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="415.0" prefWidth="589.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="24.0" prefWidth="172.0" text="OdontoANATOMY" textFill="#2da431">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Label>
+      <Separator layoutX="9.0" layoutY="38.0" prefHeight="3.0" prefWidth="545.0">
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant color="#2da431" />
+               </light>
+            </Lighting>
+         </effect>
+      </Separator>
+      <Label layoutX="163.0" layoutY="49.0" text="Para indicar a marcação de uma estrutura, passe o mouser sobre a figura " />
+      <ImageView fitHeight="17.0" fitWidth="25.0" layoutX="556.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagens/info.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="9.0" layoutY="49.0" text="# Indicar uma marcação:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="9.0" layoutY="66.0" prefHeight="17.0" prefWidth="583.0" text="e será aberto uma janela para escrever. Você pode clicar em &quot;Salvar&quot; ou teclar &quot;Enter&quot; para confirmar." />
+      <Label layoutX="10.0" layoutY="108.0" text=" a marcação. Para remover a marcação, clique no botão &quot;Limpar&quot; presente na janela de inserir a marcação." />
+      <Label layoutX="9.0" layoutY="91.0" text="# Modificar uma marcação:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="169.0" layoutY="91.0" text="Para modificar uma marcação já inserida, faça o mesmo processo de indicar" />
+      <Label layoutX="136.0" layoutY="135.0" text="Para verificar as respostas inseridas, clique no botão &quot;Verificar&quot;, uma vez acionado" />
+      <Label layoutX="9.0" layoutY="135.0" text="# Verificar resposta:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="9.0" layoutY="152.0" text="não é possível alterar as respostas." />
+      <Label layoutX="9.0" layoutY="197.0" text="tenha verificado as respostas da atual imagem." />
+      <Label layoutX="9.0" layoutY="180.0" text="# Próxima Imagem:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="127.0" layoutY="180.0" text="Para ir a próxima imagem clique no botão &quot;Próxima&quot;. Essa opção só é possível caso" />
+      <Label layoutX="120.0" layoutY="225.0" text="Para verificar o desempenho de suas respostas clique no botão &quot;Desempenho&quot;, será" />
+      <Label layoutX="11.0" layoutY="225.0" text="# Desempenho:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="11.0" layoutY="242.0" text="apresentado uma janela com os acertos por imagem." />
+      <Label layoutX="10.0" layoutY="289.0" text="tenha verificado as respostas da imagem atual." />
+      <Label layoutX="10.0" layoutY="272.0" text="# Respostas:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="108.0" layoutY="272.0" text="Para verificar as respostas corretas das marcações feitas. Essa opção só é possível caso" />
+   </children>
+</AnchorPane>
